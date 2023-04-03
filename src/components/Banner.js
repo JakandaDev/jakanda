@@ -13,11 +13,11 @@ export const Banner = () => {
             <img className="logo" src = {logo}></img>
           </div>
           <div className="buttons-wrapper">
-            <button className="button-tw" onClick={() => console.log('connect')}>
+          <button className="button-tw" onClick={() => window.open('https://twitter.com/JakandaLab', '_blank')}>
               <Twitter size={25} />
               <span>Follow Our Twitter</span>
             </button>
-            <button className='button-discord' onClick={() => console.log('connect')}>
+            <button className='button-discord' onClick={() => window.open('https://discord.gg/jakanda', '_blank')}>
               <Discord size={25} />
               <span>Join our Discord</span>
             </button>
